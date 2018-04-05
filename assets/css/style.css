@@ -1,0 +1,25 @@
+#topic-form {
+    float: right;
+}
+
+.gifHere {
+    float: left;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 50px;
+    float: center;
+    font-family: 'Acme', sans-serif;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 30px;
+    float: center;
+    font-family: 'Cookie', cursive;
+}
+
+body {
+background-color: rgba(226, 114, 21, 0.897);
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>GifTastic</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Acme|Cookie" rel="stylesheet">
+    
+    <style type="text/css">
+        button,
+        div,
+        form,
+        input {
+            margin: 8px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="page-header">
+        <h1>GifTastic</h1>
+            <h2>Basketball Edition</h2>
+
+        <form id="topic-form">
+            <label for="topics-input">Add a basketball great!</label>
+            <input type="text" id="topics-input">
+            <br>
+            <!-- Button trigger -->
+            <input id="add-topic" type="submit" value="SUBMIT">
+            <button onclick="reset()">RESET</button>
+        </form>
+
+    </div>
+
+    <!-- Rendered buttons will get dumped here  -->
+    <div class="row">
+        <div id="buttons-view"></div>
+    </div>
+
+    <!-- New gifs will appear here -->
+    <div class="row">
+        <div class="container-fluid">
+            <div id="topicsView">
+            
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Link to app javascript  -->
+    <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>
